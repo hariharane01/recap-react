@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './Pages/Home';
+import "bootstrap/dist/css/bootstrap.min.css";
+//  import { render } from 'react-dom';
+//  import {BrowserRouter as Router }from 'react-router-dom';
+
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Home />
     </div>
   );
 }
